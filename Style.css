@@ -1,8 +1,8 @@
 body {
     background-color: #f2f2f2
 }
-#pais {
 
+#header {
     height: 200px;
     width: 710px;
     background-image: url("Pildid/Pais.png");
@@ -10,36 +10,36 @@ body {
     margin-right: auto;
 }
 
-#menuukast {
+#menubox {
     height: 100px;
-    background-color: #00ace6;
+    background-color: #00dfff;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#nupukast {
+#buttonbox {
     width: 630px;
     height: 30px;
     margin-left: auto;
     margin-right: auto;
     padding:35px;
-
 }
-.menuunupp {
+
+.menubutton {
     font-size: 24px;
     color: black;
-    background-color: #80ffff;
+    background-color: #80fdfe;
     font-family: "Century", "Comic Sans MS";
     text-align: center;
     text-decoration: none;
     padding: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 
+    border: 1px
 }
-#sisu {
-    background-color: #b3ecff;
+
+#body {
+    background-color: #b3ecf1;
     height: 600px;
     width: 800px;
     margin-left: auto;
@@ -49,19 +49,24 @@ body {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
-.menuunupp:hover {
+
+.menubutton:hover {
     text-decoration: underline;
 }
-#valitud {
+
+#current {
     padding-bottom: 36px;
+    text-decoration: none;
 }
-#sisselogimisboks {
+
+#loginbox {
     width: 441px;
     position: relative;
     margin-left: auto;
     top: 170px;
     left: 30px;
 }
-.tekst {
+
+.text {
     padding: 3px;
 }
