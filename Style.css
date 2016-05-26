@@ -30,7 +30,7 @@ body {
     font-size: 24px;
     color: black;
     background-color: #80fdfe;
-    font-family: "Century", "Comic Sans MS";
+    font-family: Century, "Comic Sans MS", Serif;
     text-align: center;
     text-decoration: none;
     padding: 5px;
@@ -60,13 +60,75 @@ body {
 }
 
 #loginbox {
-    width: 441px;
+    width: 540px;
     position: relative;
     margin-left: auto;
     top: 170px;
     left: 30px;
 }
 
+#maininfo {
+    border: 6px solid #005522;
+    background-color:  #0099ff;
+    height:400px;
+    width: 787px;
+}
+
+#insertsauts {
+
+    border: 6px solid #005522;
+    border-top: 0px;
+    background-color: #0099ff;
+    height: 182px;
+    width: 787px;
+    top: -600px;
+
+}
+
 .text {
     padding: 3px;
+}
+
+.header {
+    font-family: "Century";
+    font-size: 22px;
+}
+
+#sauts {
+    width: 400px;
+    resize: none;
+}
+
+#logoutbox {
+    width: 300px;
+    position: relative;
+    margin-left: auto;
+    top: 170px;
+    left: 30px;
+}
+
+#table {
+    width: 100%;
+    border: 3px solid black;
+    background-color: #6666ff;
+}
+
+#table td{
+    word-wrap:break-word;
+}
+
+#table button {
+
+    background-color: #0099ff;
+    border: 2px solid black;
+
+}
+
+#table button:hover {
+    border: 2px solid white;
+}
+
+#profiletable {
+    border: 3px solid black;
+    background-color: #6666ff;
 }
