@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $result = session_start();
             break;
         case 'addpoint':
-            if (controller_points_increment($_POST['index'])) {
+            if (model_points_increment($_POST['index'])) {
                 if (controller_highestsauts_check(model_username_get($_POST['index']), $_POST['index'])) {
                     $result = true;
                 };

@@ -150,19 +150,19 @@
                             </tr>
                             <tr>
                                 <td>Säutsude arv</td>
-                                <td><?= controller_numberofposts_get($_SESSION['user']); ?></td>
+                                <td><?= model_numberofposts_get($_SESSION['user']); ?></td>
                             </tr>
                             <tr>
-                                <td>Populaarseim säuts (<?= controller_maxpoints_get($_SESSION['user']) ?>)</td>
+                                <td>Populaarseim säuts (<?= model_maxpoints_get($_SESSION['user']) ?>)</td>
                                 <td>
                                     <?php
-                                    if(controller_numberofposts_get($_SESSION['user']) == 0): ?>
+                                    if(model_numberofposts_get($_SESSION['user']) == 0): ?>
 
                                         Pole ühtegi säutsu
 
                                     <?php
                                     else:
-                                        echo controller_highestsauts_get($_SESSION['user']);
+                                        echo model_highestsauts_get($_SESSION['user']);
                                     endif; ?>
                                 </td>
                             </tr>

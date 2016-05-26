@@ -62,25 +62,6 @@ function controller_user_check($username, $password){
     }
 }
 
-function controller_points_increment($index){
-    return model_points_increment($index);
-}
-
-function controller_numberofposts_get($username){
-    return model_numberofposts_get($username);
-}
-
-function controller_numberofposts_increment($username){
-    return model_numberofposts_increment($username);
-}
-
-function controller_maxpoints_get($username){
-    return model_maxpoints_get($username);
-}
-
-function controller_highestsauts_get($username){
-    return model_highestsauts_get($username);
-}
 
 function controller_highestsauts_check($username, $index){
     $points = model_numberofpoints_get($index);
